@@ -1,21 +1,92 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Informatica</title>
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- CSS -->
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Informatica</h1>
+<!-- HEADER -->
+<header class="header">
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo scuola">
+    </div>
+    <h1>La Scuola del Futuro</h1>
+</header>
 
-<a href="index.html">⬅ Torna alla Home</a>
+<div class="layout">
 
-<p>
-L'informatica studia i computer, i programmi e le tecnologie digitali.
-È fondamentale nel mondo moderno per lavoro e comunicazione.
-</p>
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+        <h2>Materie</h2>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="informatica.html" class="active">💻 Informatica</a></li>
+            <li><a href="italiano.html">📖 Italiano</a></li>
+            <li><a href="inglese.html">🌍 Inglese</a></li>
+            <li><a href="tps.html">⚙️ TPS/GPO</a></li>
+            <li><a href="matematica.html">📊 Matematica</a></li>
+            <li><a href="ed.html">🏃 Educazione Fisica</a></li>
+            <li><a href="sistemi.html">🌐 Sistemi e Reti</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENUTO -->
+    <main class="content">
+
+        <div class="card">
+
+            <a href="index.html" class="back-btn">⬅ Torna alla Home</a>
+
+            <h2>💻 Informatica</h2>
+
+            <p>
+                L'informatica studia i computer, i programmi e le tecnologie digitali.
+                È fondamentale nel mondo moderno per lavoro e comunicazione.
+            </p>
+
+            <p>
+                Permette di comprendere come funzionano i sistemi digitali,
+                dai software alle reti informatiche.
+            </p>
+
+            <div class="highlight">
+                🖥️ <strong>Importanza:</strong><br>
+                è alla base della tecnologia moderna e di quasi tutti i lavori digitali.
+            </div>
+
+            <!-- PDF -->
+            <h3 style="margin-top:25px;">📄 Materiale di studio</h3>
+
+            <p>Consulta il file PDF per approfondire:</p>
+
+            <a href="informatica.pdf" target="_blank" class="back-btn">
+                📥 Apri / Scarica il PDF
+            </a>
+
+            <iframe src="informatica.pdf" width="100%" height="500px"
+                style="margin-top:15px; border-radius:10px; border:none;">
+            </iframe>
+
+        </div>
+
+    </main>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>Educazione Civica - Istituto Pacinotti Taranto</p>
+</footer>
 
 </body>
 </html>
