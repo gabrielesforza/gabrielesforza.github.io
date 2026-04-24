@@ -123,3 +123,28 @@ footer {
         transform: translateY(0);
     }
 }
+/* Bottone torna indietro */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #3b82f6;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    color: #1e3c72;
+    transform: translateX(-5px);
+}
+
+/* Link attivo sidebar */
+.sidebar a.active {
+    background: #3b82f6;
+    color: white;
+}
+
+/* Titolo materia */
+.card h2 {
+    font-size: 26px;
+}
