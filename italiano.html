@@ -1,7 +1,92 @@
-<h1>Italiano</h1>
-<a href="index.html">⬅ Torna alla Home</a>
+<!DOCTYPE html>
+<html lang="it">
 
-<p>
-L'italiano sviluppa la capacità di scrivere, leggere e comunicare correttamente.
-È fondamentale per comprendere testi e esprimersi.
-</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italiano</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="logo">
+        <img src="logo.jpg" alt="Logo scuola">
+    </div>
+    <h1>La Scuola del Futuro</h1>
+</header>
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+        <h2>Materie</h2>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="informatica.html">💻 Informatica</a></li>
+            <li><a href="italiano.html" class="active">📖 Italiano</a></li>
+            <li><a href="inglese.html">🌍 Inglese</a></li>
+            <li><a href="tps.html">⚙️ TPS/GPO</a></li>
+            <li><a href="matematica.html">📊 Matematica</a></li>
+            <li><a href="ed.html">🏃 Educazione Fisica</a></li>
+            <li><a href="sistemi.html">🌐 Sistemi e Reti</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENUTO -->
+    <main class="content">
+
+        <div class="card">
+
+            <a href="index.html" class="back-btn">⬅ Torna alla Home</a>
+
+            <h2>📖 Italiano</h2>
+
+            <p>
+                L'italiano sviluppa la capacità di scrivere, leggere e comunicare correttamente.
+                È fondamentale per comprendere testi e esprimersi in modo efficace.
+            </p>
+
+            <p>
+                Studiare la lingua italiana permette di migliorare il pensiero critico e
+                la capacità di analisi dei testi letterari e non.
+            </p>
+
+            <div class="highlight">
+                ✍️ <strong>Obiettivo:</strong><br>
+                migliorare la comunicazione scritta e orale e comprendere meglio la lingua.
+            </div>
+
+            <!-- PDF -->
+            <h3 style="margin-top:25px;">📄 Materiale di studio</h3>
+
+            <p>Consulta il file PDF per approfondire:</p>
+
+            <a href="italiano.pdf" target="_blank" class="back-btn">
+                📥 Apri / Scarica il PDF
+            </a>
+
+            <iframe src="italiano.pdf" width="100%" height="500px"
+                style="margin-top:15px; border-radius:10px; border:none;">
+            </iframe>
+
+        </div>
+
+    </main>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>Educazione Civica - Istituto Pacinotti Taranto</p>
+</footer>
+
+</body>
+</html>
