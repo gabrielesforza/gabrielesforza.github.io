@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storia</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo scuola">
+        </div>
+        <h1>La Scuola del Futuro</h1>
+    </header>
+
+    <div class="layout">
+
+        <nav class="sidebar">
+            <h2>Materie</h2>
+            <ul>
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="informatica.html">💻 Informatica</a></li>
+                <li><a href="italiano.html">📖 Italiano</a></li>
+                <li><a href="inglese.html">🌍 Inglese</a></li>
+                <li><a href="tps.html">⚙️ TPS/GPO</a></li>
+                <li><a href="matematica.html">📊 Matematica</a></li>
+                <li><a href="ed.html">🏃 Educazione Fisica</a></li>
+                <li><a href="sistemi.html">🌐 Sistemi e Reti</a></li>
+                <li><a href="storia.html" class="active">📜 Storia</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+
+            <div class="card">
+
+                <!-- Bottone torna indietro -->
+                <a href="index.html" class="back-btn">← Torna alla Home</a>
+
+                <h2>Storia</h2>
+
+                <p>
+                    In questa sezione puoi consultare il materiale di storia. 
+                    Il documento PDF contiene appunti, spiegazioni e approfondimenti utili per lo studio.
+                </p>
+
+                <div class="highlight">
+                    📄 <strong>Scarica o visualizza il file PDF:</strong>
+                    <br><br>
+
+                    <!-- Pulsante download -->
+                    <a href="storia.pdf" download class="back-btn">
+                        ⬇️ Scarica storia.pdf
+                    </a>
+                </div>
+
+                <br>
+
+                <!-- Visualizzazione PDF -->
+                <iframe src="storia.pdf" width="100%" height="500px" style="border-radius:10px;">
+                    Il tuo browser non supporta la visualizzazione dei PDF.
+                </iframe>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <footer>
+        <p>Educazione Civica - Istituto Pacinotti Taranto</p>
+    </footer>
+
+</body>
+
+</html>
